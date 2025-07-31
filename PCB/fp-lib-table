@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom Keyboard Parts")(type "KiCad")(uri "${KIPRJMOD}/SKS.pretty/Custom Keyboard Parts.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,31 @@
+#pragma once
+
+#define VENDOR_ID       0xFEED
+#define PRODUCT_ID      0x1337
+#define DEVICE_VER      0x0001
+#define MANUFACTURER   "Logan_Peterson"
+#define PRODUCT        "Riptide"
+
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 11
+
+#define MATRIX_ROW_PINS { GP13, GP14, GP15, GP16, GP17, GP18, GP19, GP20 }
+#define MATRIX_COL_PINS { GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12 }
+
+#define DIODE_DIRECTION COL2ROW
+
+#define ENCODERS_PAD_A { GP21 }
+#define ENCODERS_PAD_B { GP22 }
+
+#define WS2812_DI_PIN GP27
+#define RGBLED_NUM 47
+#define RGBLIGHT_LIMIT_VAL 120
+
+#define RGB_INDICATOR_PIN GP26
+#define RGB_INDICATOR_NUM 14
+#define RGB_INDICATOR_LIMIT_VAL 120
+
+#define SDA_PIN GP0
+#define SCL_PIN GP1
+
+#define DEBOUNCE 5

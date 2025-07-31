@@ -1,0 +1,43 @@
+{
+  "keyboard_name": "Riptide",
+  "manufacturer": "Logan Peterson",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x1337",
+    "device_version": "1.0.0"
+  },
+  "diode_direction": "COL2ROW",
+  "matrix_pins": {
+    "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10"],
+    "rows": ["GP18", "GP19", "GP20", "GP21", "GP22", "GP23", "GP24", "GP25"]
+  },
+  "layouts": {
+    "LAYOUT_all": {
+      "layout": [
+        { "label": "K000", "row": 0, "col": 0 },
+        { "label": "K001", "row": 0, "col": 1 },
+        { "label": "K002", "row": 0, "col": 2 },
+        { "label": "K003", "row": 0, "col": 3 },
+        { "label": "K004", "row": 0, "col": 4 },
+        { "label": "K005", "row": 0, "col": 5 },
+        { "label": "K006", "row": 0, "col": 6 },
+        { "label": "K007", "row": 0, "col": 7 },
+        { "label": "K008", "row": 0, "col": 8 },
+        { "label": "K009", "row": 0, "col": 9 },
+        { "label": "K00A", "row": 0, "col": 10 },
+
+        { "label": "K100", "row": 1, "col": 0 },
+        { "label": "K101", "row": 1, "col": 1 },
+        { "label": "K102", "row": 1, "col": 2 },
+        { "label": "K103", "row": 1, "col": 3 },
+        { "label": "K104", "row": 1, "col": 4 },
+        { "label": "K105", "row": 1, "col": 5 },
+        { "label": "K106", "row": 1, "col": 6 },
+        { "label": "K107", "row": 1, "col": 7 },
+        { "label": "K108", "row": 1, "col": 8 },
+        { "label": "K109", "row": 1, "col": 9 },
+        { "label": "K10A", "row": 1, "col": 10 }
+      ]
+    }
+  }
+}

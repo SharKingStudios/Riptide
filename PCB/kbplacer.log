@@ -1,0 +1,607 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.2 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:586]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\conta\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 10.0, "y": 5.0, "orientation": 90.0, "side": "Front"}, "template_path": ""}, "additional_elements": [{"annotation_format": "", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 19050000/19050000
+[key_placer.py:117]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:124]: Switches by nets: {}
+[key_placer.py:128]: Diodes by switch: {'SW33': ['D24'], 'SW16': ['D116'], 'SW31': ['D73'], 'SW63': ['D76'], 'SW85': ['D61'], 'SW75': ['D53'], 'SW24': ['D117'], 'SW22': ['D18'], 'SW42': ['D30'], 'SW35': ['D26'], 'SW54': ['D62'], 'SW38': ['D50'], 'SW30': ['D34'], 'SW59': ['D42'], 'SW25': ['D19'], 'SW43': ['D31'], 'SW72': ['D123'], 'SW68': ['D48'], 'SW79': ['D106'], 'SW26': ['D20'], 'SW1': ['D1'], 'SW7': ['D97'], 'SW62': ['D68'], 'SW55': ['D75'], 'SW8': ['D115'], 'SW65': ['D45'], 'SW80': ['D124'], 'SW9': ['D7'], 'SW44': ['D32'], 'SW2': ['D2'], 'SW66': ['D46'], 'SW40': ['D119'], 'SW17': ['D13'], 'SW67': ['D47'], 'SW56': ['D121'], 'SW49': ['D35'], 'SW73': ['D51'], 'SW37': ['D28'], 'SW13': ['D11'], 'SW21': ['D17'], 'SW60': ['D43'], 'SW20': ['D16'], 'SW78': ['D85'], 'SW14': ['D12'], 'SW58': ['D41'], 'SW47': ['D102'], 'SW27': ['D21'], 'SW70': ['D79'], 'SW39': ['D74'], 'SW32': ['D118'], 'SW11': ['D9'], 'SW77': ['D55'], 'SW84': ['D60'], 'SW61': ['D44'], 'SW34': ['D25'], 'SW76': ['D54'], 'SW5': ['D5'], 'SW28': ['D22'], 'SW45': ['D33'], 'SW41': ['D29'], 'SW15': ['D98'], 'SW12': ['D10'], 'SW69': ['D49'], 'SW51': ['D37'], 'SW83': ['D59'], 'SW57': ['D40'], 'SW46': ['D56'], 'SW29': ['D23'], 'SW53': ['D39'], 'SW50': ['D36'], 'SW74': ['D52'], 'SW3': ['D3'], 'SW23': ['D99'], 'SW48': ['D120'], 'SW52': ['D38'], 'SW36': ['D27'], 'SW10': ['D8'], 'SW71': ['D105'], 'SW4': ['D4'], 'SW64': ['D122'], 'SW81': ['D57'], 'SW19': ['D15'], 'SW82': ['D58'], 'SW18': ['D14'], 'SW6': ['D6']}
+[kle_serial.py:897]: User layout: [[{'a': 6}, 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', {'a': 5}, 'PrtSc\nNmLk', 'Pause\nScrLk', 'Delete\nInsert'], [{'a': 4}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'a': 6, 'w': 2}, 'Backspace', 'Home'], [{'a': 4, 'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'a': 6}, 'Page Up'], [{'a': 4, 'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'a': 6, 'w': 2.25}, 'Enter', 'Page Down'], [{'w': 2.25}, 'Shift', {'a': 4}, 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'a': 6, 'w': 1.75}, 'Shift', {'a': 7}, '↑', {'a': 6}, 'End'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 6}, 'Alt', 'Fn', 'Ctrl', {'a': 7}, '←', '↓', '→']]
+[key_placer.py:662]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:85]: Setting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:85]: Setting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:85]: Setting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:85]: Setting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:85]: Setting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:85]: Setting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:85]: Setting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:85]: Setting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:85]: Setting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:85]: Setting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:85]: Setting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:85]: Setting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:85]: Setting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:85]: Setting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:85]: Setting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:85]: Setting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:85]: Setting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:85]: Setting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:85]: Setting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:85]: Setting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:85]: Setting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:85]: Setting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:85]: Setting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:85]: Setting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:85]: Setting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:85]: Setting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:85]: Setting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:85]: Setting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:85]: Setting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:85]: Setting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:85]: Setting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:85]: Setting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:85]: Setting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:85]: Setting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:85]: Setting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:85]: Setting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:85]: Setting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:85]: Setting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:85]: Setting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:85]: Setting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:85]: Setting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:85]: Setting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:85]: Setting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:85]: Setting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:85]: Setting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:85]: Setting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:85]: Setting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:85]: Setting SW84 footprint position: (323850000, 133350000)
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=10.0, y=5.0, orientation=90.0, side=<Side.FRONT: 'Front'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (48100000, 43100000)
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (67150000, 43100000)
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting D3 footprint position: (86200000, 43100000)
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting D4 footprint position: (105250000, 43100000)
+[board_modifier.py:98]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting D5 footprint position: (124300000, 43100000)
+[board_modifier.py:98]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting D6 footprint position: (143350000, 43100000)
+[board_modifier.py:98]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting D97 footprint position: (162400000, 43100000)
+[board_modifier.py:98]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting D115 footprint position: (181450000, 43100000)
+[board_modifier.py:98]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting D7 footprint position: (200500000, 43100000)
+[board_modifier.py:98]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting D8 footprint position: (219550000, 43100000)
+[board_modifier.py:98]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting D9 footprint position: (238600000, 43100000)
+[board_modifier.py:98]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting D10 footprint position: (257650000, 43100000)
+[board_modifier.py:98]: Getting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:85]: Setting D11 footprint position: (276700000, 43100000)
+[board_modifier.py:98]: Getting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:85]: Setting D12 footprint position: (295750000, 43100000)
+[board_modifier.py:98]: Getting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:85]: Setting D98 footprint position: (314800000, 43100000)
+[board_modifier.py:98]: Getting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting D116 footprint position: (333850000, 43100000)
+[board_modifier.py:98]: Getting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D13 footprint position: (48100000, 62150000)
+[board_modifier.py:98]: Getting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D14 footprint position: (67150000, 62150000)
+[board_modifier.py:98]: Getting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting D15 footprint position: (86200000, 62150000)
+[board_modifier.py:98]: Getting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D16 footprint position: (105250000, 62150000)
+[board_modifier.py:98]: Getting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting D17 footprint position: (124300000, 62150000)
+[board_modifier.py:98]: Getting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting D18 footprint position: (143350000, 62150000)
+[board_modifier.py:98]: Getting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting D99 footprint position: (162400000, 62150000)
+[board_modifier.py:98]: Getting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting D117 footprint position: (181450000, 62150000)
+[board_modifier.py:98]: Getting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting D19 footprint position: (200500000, 62150000)
+[board_modifier.py:98]: Getting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting D20 footprint position: (219550000, 62150000)
+[board_modifier.py:98]: Getting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting D21 footprint position: (238600000, 62150000)
+[board_modifier.py:98]: Getting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting D22 footprint position: (257650000, 62150000)
+[board_modifier.py:98]: Getting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting D23 footprint position: (276700000, 62150000)
+[board_modifier.py:98]: Getting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:85]: Setting D34 footprint position: (305275000, 62150000)
+[board_modifier.py:98]: Getting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:85]: Setting D73 footprint position: (333850000, 62150000)
+[board_modifier.py:98]: Getting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:85]: Setting D118 footprint position: (52862500, 81200000)
+[board_modifier.py:98]: Getting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:85]: Setting D24 footprint position: (76675000, 81200000)
+[board_modifier.py:98]: Getting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:85]: Setting D25 footprint position: (95725000, 81200000)
+[board_modifier.py:98]: Getting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:85]: Setting D26 footprint position: (114775000, 81200000)
+[board_modifier.py:98]: Getting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:85]: Setting D27 footprint position: (133825000, 81200000)
+[board_modifier.py:98]: Getting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:85]: Setting D28 footprint position: (152875000, 81200000)
+[board_modifier.py:98]: Getting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:85]: Setting D50 footprint position: (171925000, 81200000)
+[board_modifier.py:98]: Getting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:85]: Setting D74 footprint position: (190975000, 81200000)
+[board_modifier.py:98]: Getting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:85]: Setting D119 footprint position: (210025000, 81200000)
+[board_modifier.py:98]: Getting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:85]: Setting D29 footprint position: (229075000, 81200000)
+[board_modifier.py:98]: Getting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:85]: Setting D30 footprint position: (248125000, 81200000)
+[board_modifier.py:98]: Getting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:85]: Setting D31 footprint position: (267175000, 81200000)
+[board_modifier.py:98]: Getting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:85]: Setting D32 footprint position: (286225000, 81200000)
+[board_modifier.py:98]: Getting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:85]: Setting D33 footprint position: (310037500, 81200000)
+[board_modifier.py:98]: Getting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:85]: Setting D56 footprint position: (333850000, 81200000)
+[board_modifier.py:98]: Getting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:85]: Setting D102 footprint position: (55243750, 100250000)
+[board_modifier.py:98]: Getting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:85]: Setting D120 footprint position: (81437500, 100250000)
+[board_modifier.py:98]: Getting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:85]: Setting D35 footprint position: (100487500, 100250000)
+[board_modifier.py:98]: Getting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting D36 footprint position: (119537500, 100250000)
+[board_modifier.py:98]: Getting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting D37 footprint position: (138587500, 100250000)
+[board_modifier.py:98]: Getting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting D38 footprint position: (157637500, 100250000)
+[board_modifier.py:98]: Getting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting D39 footprint position: (176687500, 100250000)
+[board_modifier.py:98]: Getting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting D62 footprint position: (195737500, 100250000)
+[board_modifier.py:98]: Getting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting D75 footprint position: (214787500, 100250000)
+[board_modifier.py:98]: Getting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting D121 footprint position: (233837500, 100250000)
+[board_modifier.py:98]: Getting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting D40 footprint position: (252887500, 100250000)
+[board_modifier.py:98]: Getting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting D41 footprint position: (271937500, 100250000)
+[board_modifier.py:98]: Getting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:85]: Setting D42 footprint position: (302893750, 100250000)
+[board_modifier.py:98]: Getting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:85]: Setting D43 footprint position: (333850000, 100250000)
+[board_modifier.py:98]: Getting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:85]: Setting D44 footprint position: (60006250, 119300000)
+[board_modifier.py:98]: Getting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:85]: Setting D68 footprint position: (90962500, 119300000)
+[board_modifier.py:98]: Getting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:85]: Setting D76 footprint position: (110012500, 119300000)
+[board_modifier.py:98]: Getting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:85]: Setting D122 footprint position: (129062500, 119300000)
+[board_modifier.py:98]: Getting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:85]: Setting D45 footprint position: (148112500, 119300000)
+[board_modifier.py:98]: Getting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:85]: Setting D46 footprint position: (167162500, 119300000)
+[board_modifier.py:98]: Getting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:85]: Setting D47 footprint position: (186212500, 119300000)
+[board_modifier.py:98]: Getting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:85]: Setting D48 footprint position: (205262500, 119300000)
+[board_modifier.py:98]: Getting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:85]: Setting D49 footprint position: (224312500, 119300000)
+[board_modifier.py:98]: Getting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:85]: Setting D79 footprint position: (243362500, 119300000)
+[board_modifier.py:98]: Getting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:85]: Setting D105 footprint position: (262412500, 119300000)
+[board_modifier.py:98]: Getting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:85]: Setting D123 footprint position: (288606250, 119300000)
+[board_modifier.py:98]: Getting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:85]: Setting D51 footprint position: (314800000, 119300000)
+[board_modifier.py:98]: Getting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:85]: Setting D52 footprint position: (333850000, 119300000)
+[board_modifier.py:98]: Getting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:85]: Setting D53 footprint position: (50481250, 138350000)
+[board_modifier.py:98]: Getting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:85]: Setting D54 footprint position: (74293750, 138350000)
+[board_modifier.py:98]: Getting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:85]: Setting D55 footprint position: (98106250, 138350000)
+[board_modifier.py:98]: Getting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:85]: Setting D85 footprint position: (169543750, 138350000)
+[board_modifier.py:98]: Getting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:85]: Setting D106 footprint position: (238600000, 138350000)
+[board_modifier.py:98]: Getting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:85]: Setting D124 footprint position: (257650000, 138350000)
+[board_modifier.py:98]: Getting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:85]: Setting D57 footprint position: (276700000, 138350000)
+[board_modifier.py:98]: Getting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:85]: Setting D58 footprint position: (295750000, 138350000)
+[board_modifier.py:98]: Getting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:85]: Setting D59 footprint position: (314800000, 138350000)
+[board_modifier.py:98]: Getting SW84 footprint position: (323850000, 133350000)
+[board_modifier.py:85]: Setting D60 footprint position: (333850000, 138350000)
+[board_modifier.py:98]: Getting SW85 footprint position: (351250000, 84500000)
+[board_modifier.py:85]: Setting D61 footprint position: (341250000, 79500000)
+[board_modifier.py:98]: Getting D61 footprint position: (341250000, 79500000)
+[key_placer.py:775]: Placing additional elements for SW61
+[board_modifier.py:98]: Getting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW59
+[board_modifier.py:98]: Getting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW67
+[board_modifier.py:98]: Getting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW63
+[board_modifier.py:98]: Getting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW77
+[board_modifier.py:98]: Getting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW53
+[board_modifier.py:98]: Getting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW44
+[board_modifier.py:98]: Getting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW37
+[board_modifier.py:98]: Getting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW69
+[board_modifier.py:98]: Getting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW64
+[board_modifier.py:98]: Getting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW75
+[board_modifier.py:98]: Getting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW54
+[board_modifier.py:98]: Getting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW81
+[board_modifier.py:98]: Getting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW52
+[board_modifier.py:98]: Getting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW82
+[board_modifier.py:98]: Getting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW72
+[board_modifier.py:98]: Getting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW79
+[board_modifier.py:98]: Getting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW45
+[board_modifier.py:98]: Getting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW57
+[board_modifier.py:98]: Getting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW58
+[board_modifier.py:98]: Getting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW83
+[board_modifier.py:98]: Getting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW84
+[board_modifier.py:98]: Getting SW84 footprint position: (323850000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW68
+[board_modifier.py:98]: Getting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW76
+[board_modifier.py:98]: Getting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW62
+[board_modifier.py:98]: Getting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW55
+[board_modifier.py:98]: Getting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW38
+[board_modifier.py:98]: Getting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW71
+[board_modifier.py:98]: Getting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW65
+[board_modifier.py:98]: Getting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW40
+[board_modifier.py:98]: Getting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW78
+[board_modifier.py:98]: Getting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW56
+[board_modifier.py:98]: Getting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW36
+[board_modifier.py:98]: Getting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW47
+[board_modifier.py:98]: Getting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW39
+[board_modifier.py:98]: Getting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW41
+[board_modifier.py:98]: Getting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW70
+[board_modifier.py:98]: Getting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW66
+[board_modifier.py:98]: Getting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW60
+[board_modifier.py:98]: Getting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW73
+[board_modifier.py:98]: Getting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW80
+[board_modifier.py:98]: Getting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW42
+[board_modifier.py:98]: Getting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW46
+[board_modifier.py:98]: Getting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW50
+[board_modifier.py:98]: Getting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW74
+[board_modifier.py:98]: Getting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW85
+[board_modifier.py:98]: Getting SW85 footprint position: (351250000, 84500000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:75]: Searching for optional  footprint in C:\Users\conta\OneDrive\Documents\GitHub\Riptide\PCB\Riptide.kicad_pcb
+[board_modifier.py:80]: Footprint not found

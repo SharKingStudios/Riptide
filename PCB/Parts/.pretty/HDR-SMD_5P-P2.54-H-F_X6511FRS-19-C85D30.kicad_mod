@@ -1,0 +1,147 @@
+(footprint "HDR-SMD_5P-P2.54-H-F_X6511FRS-19-C85D30"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7 1.5 0)
+		(layer "F.SilkS")
+		(uuid "b4cb68eb-ff4d-4cf6-9cbf-f1f91cb50a75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-SMD_5P-P2.54-H-F_X6511FRS-19-C85D30"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "3d988f00-bbeb-4260-848d-331f9ce55401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4b3c807-0b78-429c-bba3-238519f2abd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb410258-a85a-40dc-9a69-842e3a5f6689")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.6 2.5)
+		(end -6.6 10.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d63fcc6-15ae-4cb7-9cd9-c1ff2b7d8078")
+	)
+	(fp_line
+		(start 6.6 2.45)
+		(end -6.6 2.45)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4bdad0b-5807-4713-8ce4-ec27e0f31f20")
+	)
+	(fp_line
+		(start 6.6 10.5)
+		(end 6.6 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59f94ca9-2ec1-4b30-bbf7-d420eaea0ec3")
+	)
+	(fp_circle
+		(center -6.6 10.95)
+		(end -6.57 10.95)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b772723c-dcc9-41fe-abf4-88d047df2227")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a7d63dc8-d841-4a7d-8601-3c18a6f4170d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.08 0)
+		(size 1.02 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdf3ed87-af35-43b2-a648-b010bf87ebde")
+	)
+	(pad "2" smd rect
+		(at -2.54 0)
+		(size 1.02 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5232dfa0-f4c6-409d-9fe4-a2df18981c9e")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 1.02 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b220e19-39b7-48a2-838b-c36da4a175f0")
+	)
+	(pad "4" smd rect
+		(at 2.54 0)
+		(size 1.02 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f318053c-ea6a-484e-9885-ba6d77d618ec")
+	)
+	(pad "5" smd rect
+		(at 5.08 0)
+		(size 1.02 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6dd5b8a-34d7-4cb3-b92b-5786c0f3c496")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts/.3dshapes/HDR-SMD_5P-P2.54-H-F_X6511FRS-19-C85D30.wrl"
+		(offset
+			(xyz 0 -3.22 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
