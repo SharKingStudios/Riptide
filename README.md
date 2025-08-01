@@ -55,6 +55,7 @@ All the bits and pieces needed can be found **[here](/BOM.csv)**.
 | Keycaps                | 1          | 24.99  | [Amazon](https://www.amazon.com/dp/B0DBPKP52D?th=1) |
 | Gateron Red Keyswitches| 1          | 34.99  | [Amazon](https://www.amazon.com/gp/product/B07CVQ7ZRL) |
 | Diodes                 | 85 (100)   | 6.99   | [Amazon](https://www.amazon.com/dp/B079KJ91JZ) |
+| 11"x14" Acrylic        | 1 (2)      | 11.99  | [Amazon](https://www.amazon.com/dp/B0CQYPRG4F) |
 | SK6812MINI-E LEDs      | 61 (65)    | 3.84   | [LCSC](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) |
 | PCA9555D               | 1          | 1.75   | [LCSC](https://lcsc.com/product-detail/I-O-Expanders_NXP-PCA9555DB-118_C133183.html) |
 | X6511FRS-05-C85D30     | 14 (15)    | 2.46   | [LCSC](https://lcsc.com/product-detail/Female-Headers_XKB-Connection-X6511FRS-05-C85D30_C5142238.html) |
@@ -66,7 +67,7 @@ All the bits and pieces needed can be found **[here](/BOM.csv)**.
 | M2.5 3mm Screw         | 12         | 0.00   | Me |
 | 4.7K THT Resistor      | 2          | 0.00   | Me |
 | Shipping               | N/A        | 11.26  | LCSC |
-| **Total**              | —          | **109.00** | — |
+| **Total**              | —          | **121.00** | — |
 
 ---
 
