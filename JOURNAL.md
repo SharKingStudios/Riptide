@@ -5,7 +5,7 @@ description: "An Infinitely Expandable, Ocean Inspired Keyboard."
 created_at: "2025-07-01"
 ---
 
-**Total time Overall: 33h**
+**Total time Overall: 37h**
 
 # June 1st: Started work on keyboard layout and matrix
 

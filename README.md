@@ -20,7 +20,7 @@
 
 ## What is this?
 It's a custom keyboard built for infinite expansion through its module ports! It uses an Orpheus Pico, QMK firmware, and even more LEDs.
-The expansion modules could be literally anything! From a screen, a rechargable battery, a buzzer, or even more LEDs! 
+The expansion modules could be literally anything! From a screen, a rechargeable battery, a buzzer, or even more LEDs! 
 
 ### Features:
 - **Keycool84 Layout** – Possibly the best?
