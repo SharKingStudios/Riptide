@@ -17,30 +17,6 @@
 
 
 ---
-## BOM
-All the bits and pieces needed can be found **[here](/BOM.csv)**.
-
-| Name                   | Amount     | Price  | Source |
-|------------------------|------------|--------|--------|
-| PCB                    | 1 (5)      | 33.74  | [JLCPCB](https://jlcpcb.com/) |
-| Keycaps                | 1          | 24.99  | [Amazon](https://www.amazon.com/dp/B0DBPKP52D?th=1) |
-| Gateron Red Keyswitches| 1          | 34.99  | [Amazon](https://www.amazon.com/gp/product/B07CVQ7ZRL) |
-| Diodes                 | 85 (100)   | 6.99   | [Amazon](https://www.amazon.com/dp/B079KJ91JZ) |
-| SK6812MINI-E LEDs      | 61 (65)    | 3.84   | [LCSC](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) |
-| PCA9555D               | 1          | 1.75   | [LCSC](https://lcsc.com/product-detail/I-O-Expanders_NXP-PCA9555DB-118_C133183.html) |
-| X6511FRS-05-C85D30     | 14 (15)    | 2.46   | [LCSC](https://lcsc.com/product-detail/Female-Headers_XKB-Connection-X6511FRS-05-C85D30_C5142238.html) |
-| 18ga Steel Plate       | 1          | 0.00   | PRICE Industries |
-| Orpheus Pico           | 1          | 0.00   | Me |
-| OLED                   | 1          | 0.00   | Old Hackpad Kit |
-| EC11 Rotary Encoder    | 1          | 0.00   | Old Hackpad Kit |
-| M2.5 10mm Standoffs    | 12         | 0.00   | Me |
-| M2.5 3mm Screw         | 12         | 0.00   | Me |
-| 4.7K THT Resistor      | 2          | 0.00   | Me |
-| Shipping               | N/A        | 11.26  | LCSC |
-| **Total**              | —          | **109.00** | — |
-
-
----
 
 ## What is this?
 It's a custom keyboard built for infinite expansion through its module ports! It uses an Orpheus Pico, QMK firmware, and even more LEDs.
@@ -70,8 +46,34 @@ I built this keyboard for [Highway](https://highway.hackclub.com)—an awesome H
 
 ---
 
+## BOM
+All the bits and pieces needed can be found **[here](/BOM.csv)**.
+
+| Name                   | Amount     | Price  | Source |
+|------------------------|------------|--------|--------|
+| PCB                    | 1 (5)      | 33.74  | [JLCPCB](https://jlcpcb.com/) |
+| Keycaps                | 1          | 24.99  | [Amazon](https://www.amazon.com/dp/B0DBPKP52D?th=1) |
+| Gateron Red Keyswitches| 1          | 34.99  | [Amazon](https://www.amazon.com/gp/product/B07CVQ7ZRL) |
+| Diodes                 | 85 (100)   | 6.99   | [Amazon](https://www.amazon.com/dp/B079KJ91JZ) |
+| SK6812MINI-E LEDs      | 61 (65)    | 3.84   | [LCSC](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) |
+| PCA9555D               | 1          | 1.75   | [LCSC](https://lcsc.com/product-detail/I-O-Expanders_NXP-PCA9555DB-118_C133183.html) |
+| X6511FRS-05-C85D30     | 14 (15)    | 2.46   | [LCSC](https://lcsc.com/product-detail/Female-Headers_XKB-Connection-X6511FRS-05-C85D30_C5142238.html) |
+| 18ga Steel Plate       | 1          | 0.00   | PRICE Industries |
+| Orpheus Pico           | 1          | 0.00   | Me |
+| OLED                   | 1          | 0.00   | Old Hackpad Kit |
+| EC11 Rotary Encoder    | 1          | 0.00   | Old Hackpad Kit |
+| M2.5 10mm Standoffs    | 12         | 0.00   | Me |
+| M2.5 3mm Screw         | 12         | 0.00   | Me |
+| 4.7K THT Resistor      | 2          | 0.00   | Me |
+| Shipping               | N/A        | 11.26  | LCSC |
+| **Total**              | —          | **109.00** | — |
+
+---
+
 ## Contribute  
 Want to make it better? Open a PR, suggest a feature, or just yell at me on GitHub.
+
+---
 
 ## Disclaimer  
 This project is 100% free, open-source, and powered by **vibes**. If it breaks, explodes, or opens a black hole, **that’s on you.**
