@@ -207,3 +207,26 @@ But I was able to get it compiled:
 ![Compiled yay](<./Assets/Screenshots/Screenshot 2025-07-30 210546.png>)
 
 **Total time spent: 1h**
+
+# June 31: Blender my Glorious Goat
+
+I dont know blender but I really want some nice visuals.
+Time to learn it ig.
+
+It actually wasnt too bad, except how after I exported from my CAD the keyboard had a bajillion assigned materials that I had to go through.
+The extent of my lighting knowledge is to have a Key, Fill, and Ring.
+
+Working Screenshots:
+![Working 1](<./Assets/Screenshots/Screenshot 2025-07-31 185527.png>)
+![Working 2](<./Assets/Screenshots/Screenshot 2025-07-31 193347.png>)
+![Working 3](<./Assets/Screenshots/Screenshot 2025-07-31 193629.png>)
+![Working 4](<./Assets/Screenshots/Screenshot 2025-07-31 203950.png>)
+![Working 5](<./Assets/Screenshots/Screenshot 2025-07-31 212755.png>)
+
+I was able to make some totally awesome looking renders:
+![alt text](<./Assets/Riptide Render Front.png>)
+![alt text](<./Assets/Riptide Render Top Close.png>)
+![alt text](<./Assets/Riptide Render Front Low.png>)
+![alt text](<./Assets/Riptide Render Back.png>)
+
+**Total time spent: 4h**
