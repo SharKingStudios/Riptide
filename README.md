@@ -68,7 +68,7 @@ All the bits and pieces needed can be found **[here](/BOM.csv)**.
 | M2.5 3mm Screw         | 12         | 0.00   | Me |
 | 4.7K THT Resistor      | 2          | 0.00   | Me |
 | Shipping               | N/A        | 11.26  | LCSC |
-| **Total**              | —          | **121.00** | — |
+| **Total**              | —          | **130.00** | — |
 
 ---
 
