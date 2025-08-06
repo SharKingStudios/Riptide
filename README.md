@@ -54,6 +54,7 @@ All the bits and pieces needed can be found **[here](/BOM.csv)**.
 | PCB                    | 1 (5)      | 33.74  | [JLCPCB](https://jlcpcb.com/) |
 | Keycaps                | 1          | 24.99  | [Amazon](https://www.amazon.com/dp/B0DBPKP52D?th=1) |
 | Gateron Red Keyswitches| 1          | 34.99  | [Amazon](https://www.amazon.com/gp/product/B07CVQ7ZRL) |
+| Gateron Clear Stabs    | 1          | 11.99  | [Amazon](https://www.amazon.com/dp/B0BV2CKDJW) |
 | Diodes                 | 85 (100)   | 6.99   | [Amazon](https://www.amazon.com/dp/B079KJ91JZ) |
 | 11"x14" Acrylic        | 1 (2)      | 11.99  | [Amazon](https://www.amazon.com/dp/B0CQYPRG4F) |
 | SK6812MINI-E LEDs      | 61 (65)    | 3.84   | [LCSC](https://lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) |
